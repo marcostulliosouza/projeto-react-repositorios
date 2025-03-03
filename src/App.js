@@ -1,9 +1,14 @@
 import React from 'react';
 import RoutesComponent from './RoutesComponent';
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
-    <RoutesComponent />
+    <>
+      <GlobalStyle />
+      <RoutesComponent />
+    </>
+
   );
 }
 
